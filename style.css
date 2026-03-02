@@ -42,6 +42,13 @@ body {
   flex-direction: column;
 }
 
+.logo {
+  height: 25rem;
+  align-self: center;
+  margin-bottom: 4rem;
+  margin-top: -7rem;
+}
+
 .results_list {
   list-style: none;
   height: 77vh;
