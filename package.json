@@ -1,0 +1,29 @@
+{
+  "name": "newearthquakesite",
+  "version": "1.0.0",
+  "description": "New Earth Quake Site",
+  "homepage": "https://github.com/sonyamg80/NewearthquakeSite#readme",
+  "bugs": {
+    "url": "https://github.com/sonyamg80/NewearthquakeSite/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonyamg80/NewearthquakeSite.git"
+  },
+  "license": "ISC",
+  "author": "Sonya Green",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "lodash-es": "^4.17.23",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}
